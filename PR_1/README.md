@@ -18,13 +18,9 @@
 
 ## 🌐 Live Demo & Project Links
 
-- 🚀 **Live Streamlit App:** `ADD_YOUR_STREAMLIT_APP_URL`
-- 💻 **GitHub Repository:** `ADD_YOUR_GITHUB_REPOSITORY_URL`
-- 🎥 **Project Demo Video (5–10 minutes):** `ADD_YOUR_VIDEO_URL`
+- 🚀 **Live Streamlit App:** [Live Demo](https://airline-tweet-sentiment-analyzer.streamlit.app)
+- 💻 **GitHub Repository:** [GITHUB Repo](https://github.com/PatelYash002/NLP-Fundamentals-From-Raw-Text-to-a-Deployed-App)
 - 📊 **Notebook:** [`NLP_PR1.ipynb`](./NLP_PR1.ipynb)
-
-> Replace the three `ADD_YOUR_..._URL` placeholders after publishing
-> your repository, deploying the app, and uploading your video.
 
 ------------------------------------------------------------------------
 
@@ -212,72 +208,72 @@ All graph images generated in the notebook are included in the
 
 **Sentiment Distribution – Counts**
 
-![Sentiment Distribution
-Counts](./outputs/sentiment-distribution-counts.png)
+![Sentiment Distribution Counts](./outputs/Sentiment_Distribution.png)
 
 **Sentiment Distribution – Percentages**
 
 ![Sentiment Distribution
-Percentages](./outputs/sentiment-distribution-percentages.png)
+Percentages](./outputs/Sentiment_Percentage_Bar_Chart.png)
 
-**Airline-wise Sentiment Distribution – Stacked Bar Chart**
-
-![Airline-wise
-Sentiment](./outputs/airline-wise-sentiment-stacked-bar.png)
 
 **Tweet Length Distribution – Histogram**
 
 ![Tweet Length
-Distribution](./outputs/tweet-length-distribution-histogram.png)
+Distribution](./outputs/Tweet_Length_Distribution_Histogram.png)
+
+**Airline-wise Sentiment Distribution – Stacked Bar Chart**
+
+![Airline-wise
+Sentiment](./outputs/Airline-wise_Sentiment_Distribution_Stacked_Bar_Chart.png)
 
 ### 2. 🧹 Text Cleaning & Vocabulary Analysis
 
 **Top 15 Negative and Positive Words**
 
-![Top Words](./outputs/top-15-negative-and-positive-words.png)
+![Top Words](./outputs/Top_15_Negative_and_Positive_Words.png)
 
 **Vocabulary Size vs Maximum Features and N-Grams**
 
 ![Vocabulary
-Size](./outputs/vocabulary-size-max-features-and-ngrams.png)
+Size](./outputs/Vocabulary_Size_vs_Max_Features_and_N_Grams.png)
 
 **Memory Usage vs Maximum Features**
 
-![Memory Usage](./outputs/memory-usage-vs-maximum-features.png)
+![Memory Usage](./outputs/Memory_Usage_vs_Maximum_Features.png)
 
 ### 3. ⚖️ Sentiment Approach & Model Evaluation
 
 **Heuristic and VADER Confusion Matrices**
 
 ![Heuristic and VADER Confusion
-Matrices](./outputs/heuristic-and-vader-confusion-matrices.png)
+Matrices](./outputs/Heuristic_and_VADER_Confusion_Matrix.png)
 
 **TF-IDF + Logistic Regression Confusion Matrix**
 
 ![TF-IDF Confusion
-Matrix](./outputs/tfidf-logistic-regression-confusion-matrix.png)
+Matrix](./outputs/TF_IDF_Logistic_Regression_Confusion-Matrix.png)
 
 **Macro-F1 Comparison of NLP Approaches**
 
 ![Macro-F1
-Comparison](./outputs/macro-f1-comparison-of-nlp-approaches.png)
+Comparison](./outputs/Macro_F1_Comparison_of_NLP_Approaches.png)
 
 ### 4. 🧩 Word2Vec Embeddings
 
 **Word2Vec Embeddings Visualisation Using PCA**
 
-![Word2Vec PCA](./outputs/word2vec-embeddings-pca.png)
+![Word2Vec PCA](./outputs/Word2Vec_Embeddings_Visualisation_Using_PCA.png)
 
 ### 5. 🏷️ POS Tagging
 
 **POS Distribution by Sentiment**
 
-![POS Distribution](./outputs/pos-distribution-by-sentiment.png)
+![POS Distribution](./outputs/POS_Distribution_by_Sentiment.png)
 
 **Full Text vs POS-Filtered Model Performance**
 
 ![POS Filtered
-Comparison](./outputs/full-text-vs-pos-filtered-performance.png)
+Comparison](./outputs/Full_Text_vs_POS_Filtered_Model_Performance.png)
 
 ------------------------------------------------------------------------
 
@@ -408,23 +404,33 @@ error/uncertain case, not a guaranteed neutral result.
 
 ## 📸 Application Screenshots
 
-Add screenshots of the running Streamlit app to a `screenshots/` folder
+Add screenshots of the running Streamlit app to a `outputs/` folder
 before final submission.
 
 Suggested screenshots:
 
-1.  `01-home-screen.png` – Application start screen.
-2.  `02-positive-prediction.png` – Positive sentiment output.
-3.  `03-negative-prediction.png` – Negative sentiment output.
-4.  `04-probability-chart.png` – ML class probability chart.
-5.  `05-pos-tags.png` – POS tagging expander, if implemented in the app.
+**Home Page**
+
+  ![App Start Screen](./outputs/Home_page.png)
+
+**Positive Review**
+
+![Positive sentiment output](./outputs/Positive_review.png)
+
+**Nagative Review**
+
+![Negative sentiment output](./outputs/Nagative_review.png)
+
+**Probability Chart**
+
+![ML class probability chart](./outputs/Probability_chart.png)
 
 > The uploaded ZIP contains the 13 notebook analysis graph images. It
 > does not currently contain these five Streamlit interface screenshots.
 
 ## 🎥 Project Demonstration Video
 
-**Video URL:** `ADD_YOUR_VIDEO_URL`
+**Video URL:** [Video](https://drive.google.com/drive/folders/1DkiN8W0P7NUpCX4lK67vVfqGzqlueR6g?usp=sharing)
 
 The 5–10 minute video should show your face and screen, explain the main
 NLP concepts and measured results, and demonstrate the deployed
